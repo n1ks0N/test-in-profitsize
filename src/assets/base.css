@@ -1,0 +1,24 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #252E42 0%, #161C2E 100%);
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background: #ff8469;
+  border-radius: 10px;
+}
